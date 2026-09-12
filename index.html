@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Тест</title>
+</head>
+
+<body>
+    <div class="page active" id="registration">
+        <h1>Тест на математическое мышление</h1>
+        <form id="registration-form">
+            <span>Фамилия и имя</span>
+            <input type="text" id="name-input" placeholder="Иванов Иван">
+            <span>Группа</span>
+            <input type="text" id="group-input" placeholder="12и">
+            <div class="themes">
+                <div class="checkbox-button-container">
+                    <input type="checkbox" id="All" class="btn-check-input">
+                    <label for="All" class="btn-check-label">Все темы</label>
+                </div>
+                <div class="checkbox-button-container">
+                    <input type="checkbox" id="Algebra" class="btn-check-input theme-checkbox">
+                    <label for="Algebra" class="btn-check-label">Алгебра</label>
+                </div>
+                <div class="checkbox-button-container">
+                    <input type="checkbox" id="Geometry" class="btn-check-input theme-checkbox">
+                    <label for="Geometry" class="btn-check-label">Геометрия</label>
+                </div>
+                <div class="checkbox-button-container">
+                    <input type="checkbox" id="Trigonometry" class="btn-check-input theme-checkbox">
+                    <label for="Trigonometry" class="btn-check-label">Тригонометрия</label>
+                </div>
+            </div>
+            <button type="button" id="start-button">Начать тест</button>
+            <span class="question-count" id="question-count">Вопросов: 0</span>
+        </form>
+        <button type="button" id="show-leaderboard-from-registration" class="btn-secondary">Таблица лидеров</button>
+    </div>
+
+    <div class="page" id="test">
+        <h1>Тест на математическое мышление</h1>
+        <div class="question">
+            <h2 id="question-number">Вопрос 1</h2>
+            <h1 id="question-text">2+2=?</h1>
+            <div class="answers" id="answers-container"></div>
+            <button type="button" id="next-button">Следующий вопрос</button>
+        </div>
+    </div>
+
+    <div class="page" id="results">
+        <h1>Тест на математическое мышление</h1>
+        <h2 id="result-text">Ваш результат: {result}</h2>
+        <div class="results-actions">
+            <button type="button" id="show-leaderboard-from-results" class="btn-secondary">Таблица лидеров</button>
+            <button type="button" id="retry-button">Пройти ещё раз</button>
+        </div>
+    </div>
+
+    <div class="page" id="leaderboard">
+        <h1>Тест на математическое мышление</h1>
+        <h2>Таблица лидеров</h2>
+        <div class="table-scroll">
+        <table class="leaderboard-table">
+            <thead>
+                <tr>
+                    <th>Место</th>
+                    <th>Фамилия и имя</th>
+                    <th>Группа</th>
+                    <th>Результат</th>
+                    <th>Дата</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboard-body"></tbody>
+        </table>
+        </div>
+        <button type="button" id="back-to-start" class="btn-secondary">К началу</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+{
+"algebra": [
+    {
+        "question": "2+2",
+        "answers": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "correctAnswer": "4"
+    },
+    {
+        "question": "12 × 8 = ?",
+        "answers": [
+            "96",
+            "86",
+            "102",
+            "94"
+        ],
+        "correctAnswer": "96"
+    },
+    {
+        "question": "Решите уравнение: x + 5 = 12",
+        "answers": [
+            "6",
+            "7",
+            "8",
+            "5"
+        ],
+        "correctAnswer": "7"
+    },
+    {
+        "question": "Чему равны 25% от 80?",
+        "answers": [
+            "20",
+            "25",
+            "15",
+            "30"
+        ],
+        "correctAnswer": "20"
+    },
+    {
+        "question": "(−3)² = ?",
+        "answers": [
+            "9",
+            "−9",
+            "6",
+            "−6"
+        ],
+        "correctAnswer": "9"
+    }
+],
+"geometry": [
+    {
+        "question": "Чему равна сумма углов треугольника?",
+        "answers": [
+            "180°",
+            "90°",
+            "360°",
+            "270°"
+        ],
+        "correctAnswer": "180°"
+    },
+    {
+        "question": "Найдите площадь прямоугольника со сторонами 4 и 6",
+        "answers": [
+            "24",
+            "10",
+            "20",
+            "12"
+        ],
+        "correctAnswer": "24"
+    },
+    {
+        "question": "Длина окружности радиусом 5 (π ≈ 3,14)",
+        "answers": [
+            "31,4",
+            "15,7",
+            "25",
+            "78,5"
+        ],
+        "correctAnswer": "31,4"
+    },
+    {
+        "question": "Сколько сторон у шестиугольника?",
+        "answers": [
+            "6",
+            "5",
+            "7",
+            "8"
+        ],
+        "correctAnswer": "6"
+    },
+    {
+        "question": "Найдите площадь квадрата со стороной 9",
+        "answers": [
+            "81",
+            "18",
+            "36",
+            "72"
+        ],
+        "correctAnswer": "81"
+    }
+],
+"trigonometry": [
+    {
+        "question": "sin 30° = ?",
+        "answers": [
+            "0,5",
+            "1",
+            "0",
+            "0,75"
+        ],
+        "correctAnswer": "0,5"
+    },
+    {
+        "question": "cos 0° = ?",
+        "answers": [
+            "1",
+            "0",
+            "−1",
+            "0,5"
+        ],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "tg 45° = ?",
+        "answers": [
+            "1",
+            "0",
+            "√3",
+            "0,5"
+        ],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "sin²α + cos²α = ?",
+        "answers": [
+            "1",
+            "0",
+            "2",
+            "sin α"
+        ],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "cos 90° = ?",
+        "answers": [
+            "0",
+            "1",
+            "−1",
+            "0,5"
+        ],
+        "correctAnswer": "0"
+    }
+]
+}
